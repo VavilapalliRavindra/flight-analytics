@@ -1,0 +1,16 @@
+# Secrets - NEVER push these
+.env
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite database (we use PostgreSQL, this is leftover)
+*.db
+
+# IDE files
+.vscode/
+.idea/
